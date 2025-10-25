@@ -1,0 +1,39 @@
+name: Generate Pacman contribution graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 1x/jour
+  workflow_dispatch:       # exécution manuelle
+  push:
+    branches: [ "main" ]   # adapte si ta branche par défaut ≠ main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Pacman graph (SVG)
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: zaydld
+          output_path: dist
+          game_theme: github-dark
+          pacman_color: "#FFD700"
+          ghost_colors: "#00FFFF,#FF69B4,#FF4500,#FF0000"
+          wall_color: "#FFFFFF"
+          dot_color: "#00FF00"
+          background_color: "#0D1117"
+          speed: 2
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
