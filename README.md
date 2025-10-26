@@ -14,7 +14,7 @@ Je partage ici mes projets, mes apprentissages et mes explorations autour de l�
 💬 Passionné par l’union de l’IA et du développement web, je cherche à transformer les soins de santé grâce à la donnée et à l'innovation numérique. 💡  
 
 ## 🌐 Réseaux :
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/zayd-ladid)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](www.linkedin.com/in/zayd-ladid-4656402b2)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:z.zaydladid@gmail.com)
 
 # 💻 Compétences techniques :
