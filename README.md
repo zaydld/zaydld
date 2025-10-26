@@ -15,7 +15,7 @@ Je partage ici mes projets, mes apprentissages et mes explorations autour de l�
 
 ## 🌐 Réseaux :
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zayd-ladid-4656402b2/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:z.zaydladid@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](https://mail.google.com/mail/u/2/#inbox?compose=CllgCJNrcwzNgfndVjlLWKJBngLdcPjHHBVGVjjrdDstsDmRZblSSGXRNLQwhKlzjlfDTjjSzbq)
 
 # 💻 Compétences techniques :
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
